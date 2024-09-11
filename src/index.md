@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: About me
-      link: /markdown-examples
+      link: /profile/about
     - theme: alt
       text: Resume
       link: /api-examples

@@ -12,7 +12,7 @@ export default defineConfig({
                 text: 'Home', link: '/'
             },
             {
-                text: 'About', link: '/markdown-examples'
+                text: 'Profile', link: '/profile/'
             },
             {
                 text: 'Projects', link: '/projects/'
@@ -27,8 +27,11 @@ export default defineConfig({
 
         sidebar: [
             {
+                text: "Profile",
+                collapsed: true,
                 items: [
-                    { text: 'About', link: '/markdown-examples' },
+                    { text: 'About Me', link: '/profile/about' },
+                    { text: 'Related Courses', link: '/profile/about' },
                 ]
             },
             {

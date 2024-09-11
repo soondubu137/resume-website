@@ -11,7 +11,7 @@ export default defineConfig({
                 text: 'Home', link: '/'
             },
             {
-                text: 'About me', link: '/markdown-examples'
+                text: 'About', link: '/markdown-examples'
             },
             {
                 text: 'Projects', link: '/markdown-examples'
@@ -26,10 +26,12 @@ export default defineConfig({
 
         sidebar: [
             {
-                text: 'Examples',
+                // text: 'Examples',
                 items: [
-                    { text: 'Markdown Examples', link: '/markdown-examples' },
-                    { text: 'Runtime API Examples', link: '/api-examples' }
+                    { text: 'About', link: '/markdown-examples' },
+                    { text: 'Projects', link: '/api-examples' },
+                    { text: 'Notes', link: '/api-examples' },
+                    { text: 'Contact', link: '/api-examples' }
                 ]
             }
         ],
@@ -40,7 +42,7 @@ export default defineConfig({
         ],
 
         footer: {
-            copyright: "Copyright&copy; 2024 Yinfeng Lu"
+            copyright: "&copy; 2024 Yinfeng Lu."
         }
     }
 })

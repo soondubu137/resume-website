@@ -8,18 +8,23 @@ hero:
   tagline: Software Engineer
   actions:
     - theme: brand
-      text: About me
+      text: About Me
       link: /profile/about
-    - theme: alt
-      text: Resume
+    - theme: brand
+      text: Résumé
       link: /api-examples
+    - theme: alt
+      text: View on GitHub
+      link: /profile/about
 
 features:
   - title: Open to work
-    details: I am looking for early-career job opportunities in software engineering.
+    details: I am looking for early-career opportunities in software engineering.
   - title: Graduation
     details: I will finish my last quarter in December 2024. I can start employment in early 2025.
-  - title: Visa
-    details: Please note that after the OPT period, I will need visa sponsorship to work in the United States.
+  - title: GitHub
+    details: Where I keep (some of) my work and contribute to others'.
+  - title: LinkedIn
+    details: Where I look for career opportunities.
 ---
 

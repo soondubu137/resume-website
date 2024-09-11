@@ -13,7 +13,7 @@ next: false
     <p>A brief overview of my background.</p>
   </a>
 
-  <a href="/profile/about" class="card">
+  <a href="/profile/related-courses" class="card">
     <h3>Related Courses</h3>
     <p>A list of the related courses I have taken, officially and unofficially.</p>
   </a>

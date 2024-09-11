@@ -1,3 +1,5 @@
+/* section cards */
+
 .card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -7,31 +9,101 @@
 }
 
 .card {
-    border: 1px solid #eaeaea;
+    border: 1px solid var(--vp-c-gray-soft);
     border-radius: 8px;
-    padding: 1rem;
+    padding: 8px 12px;
     width: 100%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     /* override theme configuration */
     text-decoration: none !important;
     color: inherit !important;
-    transition: box-shadow 0.2s ease, border-color 0.2s ease !important;
+    transition: border-color 0.2s ease !important;
 }
 
 .card:hover {
-    box-shadow: 0 4px 10px var(--vp-c-brand-soft);
-    border-color: var(--vp-c-brand-soft);
+    border-color: var(--vp-c-brand-1);
 }
 
 .card h3 {
-    margin: 0 0 0.8rem 0;
-    font-size: 16px;
+    margin: 0 0 5px 0;
+    font-size: 14px;
     font-weight: 700;
 }
 
 .card p {
-    margin: 0;
+    margin: 0 0 4px 0;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.3;
+}
+
+/* listing spacing */
+
+.vp-doc li {
+    margin-bottom: 36px !important;
+}
+
+ul p {
+    line-height: 16px !important;
+}
+
+/* related courses tables */
+
+.course-table {
+    margin-top: 36px;
+    width: 100%;
+}
+
+.course-table table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid var(--vp-c-gray-1);
+    margin: 0;
+}
+
+.course-table thead,
+.course-table tbody {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.course-table th,
+.course-table td {
+    border: none;
+    padding: 12px;
+    white-space: normal;
+}
+
+.course-table th:nth-child(1),
+.course-table td:nth-child(1) {
+    width: 20%;
+}
+
+.course-table th:nth-child(2),
+.course-table td:nth-child(2) {
+    width: 20%;
+}
+
+.course-table th:nth-child(3),
+.course-table td:nth-child(3) {
+    width: 40%;
+}
+
+.course-table th:nth-child(4),
+.course-table td:nth-child(4) {
+    width: auto;
+}
+
+.course-table th {
+    background-color: var(--vp-c-gray-3);
+    text-align: left;
+}
+
+.course-table tr:nth-child(even) {
+    background-color: var(--vp-c-gray-soft);
+}
+
+.course-table tr:nth-child(odd) {
+    background-color: white;
 }

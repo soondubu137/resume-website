@@ -11,8 +11,16 @@ export default defineConfig({
             {
                 text: 'Home', link: '/'
             },
+            // {
+            //     text: 'Profile', link: '/profile/'
+            // },
             {
-                text: 'Profile', link: '/profile/'
+                text: 'Profile',
+                items: [
+                    { text: 'About Me', link: '/profile/about' },
+                    { text: 'Related Courses', link: '/profile/related-courses' },
+                    { text: 'More', link: '/profile/' }
+                ]
             },
             {
                 text: 'Projects', link: '/projects/'
@@ -21,7 +29,7 @@ export default defineConfig({
                 text: 'Notes', link: '/markdown-examples'
             },
             {
-                text: 'Contact', link: '/markdown-examples'
+                text: 'Contact', link: '/contact'
             }
         ],
 
@@ -31,17 +39,19 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                     { text: 'About Me', link: '/profile/about' },
-                    { text: 'Related Courses', link: '/profile/about' },
+                    { text: 'Related Courses', link: '/profile/related-courses' },
                 ]
             },
             {
                 text: 'Projects',
                 collapsed: true,
                 items: [
-                    { text: 'project1', link: '/projects/test' },
-                    { text: 'project2', link: '/projects/test' },
-                    { text: 'project3', link: '/projects/test' },
-                    { text: 'project4', link: '/projects/test' },
+                    { text: 'Review System', link: '/projects/go-review-system' },
+                    { text: 'URL Shortener', link: '/projects/go-url-shortener' },
+                    { text: 'Forum', link: '/projects/go-forum' },
+                    { text: 'Genomics Annotation Service', link: '/projects/gas' },
+                    { text: 'Belay', link: '/projects/belay' },
+                    { text: 'Earlier Projects', link: '/projects/earlier' }
                 ]
             },
             {

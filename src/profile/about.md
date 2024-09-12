@@ -32,6 +32,8 @@ title: About Me
 
   🏅 High Distinction in General Scholarship
 
+  🏅 Dean's List (4 consecutive semesters)
+
 ## Experience
 
 - **Legman.io**

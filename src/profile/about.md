@@ -1,10 +1,22 @@
 ---
-title: About Me
+title: About
 ---
 
-# About Me
+<div class="about">
 
-## Background
+# About me
+
+::: details Background
+I used to study mathematics and physics, and I was quite good at them. While I was further pursuing mathematics (algebraic topology), however, I realized that math is for the *truly* brilliant people, of which I am sadly not one. Eventually, I made the decision to switch career.
+
+Graduated from UC Berkeley, I knew how popular the CS61 trilogy is. I gave CS61A a try (available online), and I finished the whole course within two weeks. Taking CS61A was a completely different experience from all the math classes I had been taking. Working with not-so-abstract concepts is actually a lot of fun (I had always enjoyed the abstractness of math).
+
+After finishing CS61A, I took CS61B. After finishing CS61B, I took CS61C and CS188... Putting my knowledge to test, I enrolled in CIS537 at UPenn - graduate-level medical image analysis. At the end of the semester, I was one of only a few students to receive an A+ in the course. Then, I joined a bioinformatics research lab at the school of medicine.
+
+I am currently studying computer science at the University of Chicago. I will graduate in December 2024. I worked as a SWE intern at a startup company during the summer, and I am currently looking for full-time SWE job opportunities.
+:::
+
+<div class="education-and-experience">
 
 ## Education
 
@@ -74,5 +86,36 @@ title: About Me
 
   Research Assistant
 
+</div>
+
 ## Skills
 
+3: familiar | 2: have some experience | 1: basic knowledge
+
+- **Go (3)**
+  - Gin, Go-zero, Go-kratos (2)
+  - gRPC, Protocol Buffer (2)
+  - Gorm (2)
+  - Makefile (2)
+- **Python (3)**
+  - Flask, FastAPI (2)
+  - Boto3 (3)
+  - PyTorch (1)
+- **C/C++ (2)**
+  - Qt (1)
+- **Java (2)**
+  - Apache Camel (1)
+- **JavaScript, CSS, HTML (2)**
+  - React (2)
+- **Amazon Web Services (2)**
+  - Lambda, EC2, S3, DynamoDB, SQS (2.5)
+  - ECS, SNS, IAM (1.5)
+- **Misc.**
+  - Git (2.5)
+  - MySQL, PostgreSQL (2)
+  - Redis (1.5)
+  - Docker (1.5)
+  - RabbitMQ, Apache Kafka, Apache ActiveMQ (1.5)
+  - ElasticSearch (1)
+
+</div>

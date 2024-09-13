@@ -4,16 +4,15 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
     title: "Yinfeng Lu",
     description: "programming resume job-search career",
+    head: [["link", { rel: "icon", type: "image/png", href: "/favicons/maple-16.png" }]],
     srcDir: './src',
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
+        logo: "icons/maple-60.png",
         nav: [
             {
                 text: 'Home', link: '/'
             },
-            // {
-            //     text: 'Profile', link: '/profile/'
-            // },
             {
                 text: 'Profile',
                 items: [
@@ -23,10 +22,23 @@ export default defineConfig({
                 ]
             },
             {
-                text: 'Projects', link: '/projects/'
-            },
-            {
-                text: 'Notes', link: '/markdown-examples'
+                text: 'Projects',
+                items: [
+                    { text: 'Review System', link: '/projects/go-review-system' },
+                    { text: 'URL Shortener', link: '/projects/go-url-shortener' },
+                    { text: 'Forum', link: '/projects/go-forum' },
+                    {
+                        text: 'School Projects',
+                        items: [
+                            { text: 'GAS', link: '/projects/gas' },
+                            { text: 'Belay', link: '/projects/belay' },
+                            { text: 'Integration', link: '/projects/integration' },
+                            { text: 'Bear Map', link: '/projects/bearmap' }
+                        ]
+                    },
+                    { text: 'Earlier Projects', link: '/projects/earlier' },
+                    { text: 'More', link: '/projects/' }
+                ]
             },
             {
                 text: 'Contact', link: '/contact'
@@ -49,16 +61,16 @@ export default defineConfig({
                     { text: 'Review System', link: '/projects/go-review-system' },
                     { text: 'URL Shortener', link: '/projects/go-url-shortener' },
                     { text: 'Forum', link: '/projects/go-forum' },
-                    { text: 'Genomics Annotation Service', link: '/projects/gas' },
-                    { text: 'Belay', link: '/projects/belay' },
+                    {
+                        text: 'School Projects',
+                        items: [
+                            { text: 'GAS', link: '/projects/gas' },
+                            { text: 'Belay', link: '/projects/belay' },
+                            { text: 'Integration', link: '/projects/integration' },
+                            { text: 'Bear Map', link: '/projects/bearmap' }
+                        ]
+                    },
                     { text: 'Earlier Projects', link: '/projects/earlier' }
-                ]
-            },
-            {
-                text: 'Notes',
-                collapsed: true,
-                items: [
-                    { text: 'Notes', link: '/markdown-examples' },
                 ]
             },
             {

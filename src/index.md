@@ -18,13 +18,22 @@ hero:
       link: /profile/about
 
 features:
-  - title: Open to work
+  - icon:
+      src: /icons/work.png
+    title: Open to work
     details: I am looking for early-career opportunities in software engineering.
-  - title: Graduation
+  - icon:
+      src: /icons/graduation.png
+    title: Graduation
     details: I will finish my last quarter in December 2024. I can start employment in early 2025.
-  - title: GitHub
-    details: Where I keep (some of) my work and contribute to others'.
-  - title: LinkedIn
-    details: Where I look for career opportunities.
+  - icon:
+      dark:  /icons/github-dark.png
+      light: /icons/github.png
+    title: GitHub
+    details: Where I keep (some of) my work and contribute to others'.<br/><div class="feature-link"><a href="https://github.com/soondubu137">Visit &rarr;</a></div>
+  - icon:
+      src: /icons/linkedin.png
+    title: LinkedIn
+    details: Where I look for career opportunities.<br/><div class="feature-link"><a href="https://www.linkedin.com/in/yinfeng-lu/">Visit &rarr;</a></div>
 ---
 

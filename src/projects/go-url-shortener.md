@@ -31,7 +31,7 @@ This project implements a basic version of such a URL shortener.
 
 ## Project Architecture
 
-An illustration of the architectural design of this project:
+An illustration of the project architecture:
 
 ![go-url-shortener-structure](./images/url-shortener-structure.png)
 

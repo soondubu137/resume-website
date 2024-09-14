@@ -23,7 +23,7 @@ This is a typical forum project. Users can register and publish posts. Each post
 
 There is also a voting mechanism. Users can vote up or down on a specific post, and this will affect the "score" of a post. Time also affect the "score" of a post (newer posts have higher scores). When users query for a list of paginated posts, they can specify the sorting order - by newest or by highest score. Scores are stored in Redis for improved performance.
 
-## Project Structure
+## Project Architecture
 
 This project strictly follows the **CSR (controller-service-repository) layered architecture**.
 

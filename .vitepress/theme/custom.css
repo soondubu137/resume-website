@@ -71,7 +71,7 @@
 .course-table th,
 .course-table td {
     border: none;
-    padding: 12px;
+    padding: 6px 12px;
     white-space: normal;
 }
 
@@ -122,10 +122,10 @@
 
 /* nested list styling */
 
-ul ul {
+.vp-doc ul ul {
     list-style-type: circle !important;
 }
 
-ul ul ul {
+.vp-doc ul ul ul {
     list-style-type: square !important;
 }

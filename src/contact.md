@@ -1,10 +1,9 @@
 ---
-title: Contact
 prev: false
 next: false
 ---
 
-# Contact me
+# Get in Touch
 
 Preferred: please [send me a message on LinkedIn](https://www.linkedin.com/messaging/compose/?recipient=yinfeng-lu).
 

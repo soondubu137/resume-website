@@ -15,13 +15,13 @@ title: GAS
 
 Private source code.
 
-::: warning Clarification
+::: warning CLARIFICATION
 Source code for school projects cannot be public.
 :::
 
 ## Introduction
 
-Genomics annotation service (GAS) was the capstone project for my cloud computing class at UChicago. As the product of ten weeks of dedicated work, this project has a relatively larger scale and a more sophisticated design. GAS (fictitious, of course) is a cloud-native SaaS (software-as-a-service) product deployed on AWS that provides "genomics annotation" service.
+Genomics annotation service (GAS) was the capstone project for my cloud computing class at UChicago. As the product of ten weeks of dedicated work, this school project has a relatively larger scale and a more sophisticated design. GAS (fictitious, of course) is a cloud-native SaaS (software-as-a-service) product deployed on AWS that provides (fictitious) genomics annotation service.
 
 ## Project Architecture
 
@@ -31,7 +31,7 @@ GAS consists of three servers:
 - An annotator server: the "core business functionality" - genomics annotation - is run on this server.
 - A util server: supporting utilities, including email notifications, file archiving, file thawing, and file restorating are handled by this server.
 
-These three servers coordinate with each other asynchronously with message queues.
+These three servers coordinate with each other asynchronously with message queues (AWS SQS). As a cloud-native application, many AWS services are used as well.
 
 ## Technologies & Tools
 
@@ -93,7 +93,11 @@ These three servers coordinate with each other asynchronously with message queue
 
 ## Challenges & Learning Outcomes
 
+### Challenges
+
 The most challenging part of this project is that despite its large scale and cloud-native nature, very little *specific* instruction was given about how to implement it. Every week we were assigned some general goals, and we needed to read the documentations and do the research ourselves to figure out the implementation details. This is also why I like this project a lot - it is quite realistic, despite being a school project.
+
+### Learning Outcomes
 
 Through this project, I
 

@@ -8,7 +8,7 @@ export default defineConfig({
     srcDir: './src',
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
-        logo: "icons/maple-60.png",
+        logo: "/icons/maple-60.png",
         nav: [
             {
                 text: 'Home', link: '/'
@@ -32,8 +32,7 @@ export default defineConfig({
                         items: [
                             { text: 'GAS', link: '/projects/gas' },
                             { text: 'Belay', link: '/projects/belay' },
-                            { text: 'Integration', link: '/projects/integration' },
-                            { text: 'Bear Map', link: '/projects/bearmap' }
+                            { text: 'Integration', link: '/projects/integration' }
                         ]
                     },
                     { text: 'Earlier Projects', link: '/projects/earlier' },
@@ -66,8 +65,7 @@ export default defineConfig({
                         items: [
                             { text: 'GAS', link: '/projects/gas' },
                             { text: 'Belay', link: '/projects/belay' },
-                            { text: 'Integration', link: '/projects/integration' },
-                            { text: 'Bear Map', link: '/projects/bearmap' }
+                            { text: 'Integration', link: '/projects/integration' }
                         ]
                     },
                     { text: 'Earlier Projects', link: '/projects/earlier' }
@@ -79,6 +77,8 @@ export default defineConfig({
                 ]
             }
         ],
+
+        outline: { level: 'deep' },
 
         socialLinks: [
             { icon: 'github', link: 'https://github.com/soondubu137' },

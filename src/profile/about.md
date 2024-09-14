@@ -1,10 +1,8 @@
----
-title: About
----
-
 <div class="about">
 
-# About me
+# About Me
+
+Résumé: 
 
 ::: details Background
 I used to study mathematics and physics, and I was quite good at them. While I was further pursuing mathematics (algebraic topology), however, I realized that math is for the *truly* brilliant people, of which I am sadly not one. Eventually, I made the decision to switch career.
@@ -80,7 +78,7 @@ I am currently studying computer science at the University of Chicago. I will gr
 
 - **Experimental CMB Cosmology Group**
 
-  *Departments of Physics &amp; Astronomy, UC Berkeley*
+  *Departments of Physics & Astronomy, UC Berkeley*
 
   January 2019 - July 2019
 
@@ -108,10 +106,11 @@ I am currently studying computer science at the University of Chicago. I will gr
 - **JavaScript, CSS, HTML (2)**
   - React (2)
 - **Amazon Web Services (2)**
-  - Lambda, EC2, S3, DynamoDB, SQS (2.5)
+  - Lambda, EC2, S3, DynamoDB, SQS (2.25)
   - ECS, SNS, IAM (1.5)
 - **Misc.**
   - Git (2.5)
+  - Linux Bash (2)
   - MySQL, PostgreSQL (2)
   - Redis (1.5)
   - Docker (1.5)

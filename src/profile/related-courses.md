@@ -21,3 +21,13 @@ through the materials that the university generously made available online. For 
 | Test | Test | Test | |
 
 </div>
+
+<div class="course-table">
+
+| University | Number | Name | Note |
+| ---------- | ------ | ---- | ---- |
+| UC Berkeley | MATH110 | Linear Algebra | Planned |
+| Test | Test | Test | |
+| Test | Test | Test | |
+
+</div>

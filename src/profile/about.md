@@ -52,9 +52,13 @@ I am currently studying computer science at the University of Chicago. I will gr
 
   June 2024 - August 2024
 
-  SWE Intern: workflow optimization, architecture improvement, backend improvement
+  **SWE Intern**: core workflow optimization, backend optimization, AWS integration
 
   Python, FastAPI, AWS, Backend, Cloud
+
+  :::details
+  TODO
+  :::
 
 - **Shen Lab**
 
@@ -62,9 +66,13 @@ I am currently studying computer science at the University of Chicago. I will gr
 
   August 2022 - May 2023
 
-  Research Assistant: automated data cleaning pipeline development
+  **Research Assistant**: automated data cleaning pipeline development
 
   Python, PyTorch, Bioinformatics
+
+  :::details
+  TODO
+  :::
 
 - **Department of Mathematics**
 
@@ -72,9 +80,9 @@ I am currently studying computer science at the University of Chicago. I will gr
 
   January 2022 - May 2023
 
-  Thesis Research
+  **Thesis Research**
 
-  Thesis: [The Mod-2 Steenrod Algebra and its Applications in Computing Homotopy Groups of Spheres](/profile/about)
+  Thesis: [The Mod-2 Steenrod Algebra and its Applications in Computing Homotopy Groups of Spheres](/files/Thesis.pdf)
 
 - **Experimental CMB Cosmology Group**
 
@@ -82,7 +90,7 @@ I am currently studying computer science at the University of Chicago. I will gr
 
   January 2019 - July 2019
 
-  Research Assistant
+  **Research Assistant**
 
 </div>
 

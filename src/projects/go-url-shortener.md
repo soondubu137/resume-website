@@ -60,7 +60,7 @@ The project contains the following essential components:
 
 - API testing: [Bruno](https://github.com/usebruno/bruno).
 
-## Features
+## Features <Badge type="warning" text="wip" />
 
 - URL shortening
 
@@ -112,7 +112,7 @@ Through this project, I
 - understood the inner workings of a URL shortener,
 - accumulated project design and development experience.
 
-## Extensions <Badge type="warning" text="wip" />
+## Extensions
 
 Here I list some potential extensions to this project and my plan about implementing them.
 

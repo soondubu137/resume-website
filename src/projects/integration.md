@@ -18,13 +18,9 @@ This is a smaller-scale project for my object-oriented architecture class at UCh
 
 ## Project Architecture
 
-An illustration of the project architecture:
+An illustration of the project architecture (click to enlarge):
 
 ![integration project](./images/eip.jpg)
-
-::: info NOTE
-The image above may be too small for the text to be legible. Explanations are given below.
-:::
 
 The project is simulating the integration of a distributed trading system. There are three main parts:
 

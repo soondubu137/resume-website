@@ -17,7 +17,13 @@ Source code for school projects cannot be public.
 
 ## Introduction
 
-Belay was the capstone project for my web development class at UChicago. It is a single-page application that sort of resemble Slack - a workspace messaging application. It features both a React-based frontend and a Flask-based repository-level backend (i.e. its primary function is to interact with the database), with sqlite as the data store. I coded the entire project within a weekend, so there are many aspects that can be improved...
+Belay was the capstone project for my web development class at UChicago. It is a single-page application that sort of resemble Slack - a workspace messaging application. It features both a React-based frontend and a Flask-based repository-level backend (i.e. its primary function is to interact with the database), with sqlite as the data store. *I coded the entire project within a weekend, so there are many aspects that can be improved...*
+
+## Gallery
+
+![A channel of Belay](./images/belay1.png)
+
+![A thread of Belay](./images/belay2.png)
 
 ## Technologies & Tools
 
@@ -58,5 +64,3 @@ Belay was the capstone project for my web development class at UChicago. It is a
   - Users can add an emoji reaction to any message or reply.
 
   - Hovering over a reaction displays all the users who had that reaction.
-
-## Gallery

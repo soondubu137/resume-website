@@ -129,3 +129,15 @@
 .vp-doc ul ul ul {
     list-style-type: square !important;
 }
+
+/* medium zoom z-index */
+
+.medium-zoom-image {
+    z-index: 9999 !important;
+}
+
+.medium-zoom-overlay {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 9998 !important;
+}

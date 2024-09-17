@@ -88,6 +88,10 @@ export default defineConfig({
         footer: {
             copyright: "&copy; 2024 Yinfeng Lu."
         },
+
+        search: {
+            provider: 'local'
+        }
     },
     markdown: {
         math: true,

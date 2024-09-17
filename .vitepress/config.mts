@@ -88,5 +88,11 @@ export default defineConfig({
         footer: {
             copyright: "&copy; 2024 Yinfeng Lu."
         },
+    },
+    markdown: {
+        math: true,
+        image: {
+            lazyLoading: true
+        }
     }
 })

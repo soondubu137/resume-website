@@ -38,7 +38,7 @@
 
 /* about-me page listing spacing */
 
-.vp-doc .education-and-experience li {
+.vp-doc .education-and-experience li:not(.details li) {
     margin-bottom: 38px !important;
 }
 

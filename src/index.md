@@ -12,10 +12,12 @@ hero:
       link: /profile/about
     - theme: brand
       text: Résumé
-      link: /api-examples
+      link: /files/resume.pdf
+      target: _blank
+      rel: noreferrer
     - theme: alt
       text: View on GitHub
-      link: /profile/about
+      link: https://github.com/soondubu137/resume-website
 
 features:
   - icon:

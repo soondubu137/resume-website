@@ -2,7 +2,7 @@
 
 # About Me
 
-Résumé: 
+Links: <a href="/files/resume.pdf" target="_blank" rel="noreferrer">Résumé</a> | [LinkedIn](https://www.linkedin.com/in/yinfeng-lu/) | [GitHub](https://github.com/soondubu137)
 
 ::: details Background
 I used to study mathematics and physics, and I was quite good at them. While I was further pursuing mathematics (algebraic topology), however, I realized that math is for the *truly* brilliant people, of which I am sadly not one. Eventually, I made the decision to switch career.
@@ -54,10 +54,24 @@ I am currently studying computer science at the University of Chicago. I will gr
 
   **SWE Intern**: core workflow optimization, backend optimization, AWS integration
 
-  Python, FastAPI, AWS, Backend, Cloud
+  Python, FastAPI, Boto3, PostgreSQL, Docker, AWS, Backend, Cloud
 
   :::details
-  TODO
+  **I led the major overhaul of the file processing workflow.**
+
+  Originally, their entire file processing workflow resided on the backend server and it worked sequentially. I made two major improvements to the workflow:
+
+  1. **I separated out the OCR workflow, redesigned it to be distributed, and deployed it as a stand-alone service on AWS.**
+  
+     This part was quite challenging. Coming up with the distributed design wasn't very difficult, but it took me several weeks to find an efficient way to deploy it on AWS. At first, I was trying out ECS, but I later realized it was practically impossible to make autoscaling play well with the fast process of OCR. Eventually, I came up with an entirely serverless design, utilizing Lambda, SQS, EventBridge, and DynamoDB. This design performs very well: compared to the original sequential workflow, it boosted OCR processing speed by 93%! Even compared to a multi-threaded optimization that got deployed before my system was integrated, it runs 63% faster.
+
+  2. **I implemented a thread-safe parallelization scheme for the remaining processing workflow.**
+
+     In addition to integrating my OCR service into the backend, I parallelized the rest of the file processing workflow as well. This involves designing an in-memory data structure to coordinate the asynchronous function calls.
+
+  This overhaul increased the overall file processing speed by approximately 56%.
+
+  Besides implementing the major overhaul, I also worked on introducing server-side events (SSE) to push real-time file processing updates to the clients, which greatly reduces server and network bandwidth usage compared to what they had before.
   :::
 
 - **Shen Lab**
@@ -71,7 +85,9 @@ I am currently studying computer science at the University of Chicago. I will gr
   Python, PyTorch, Bioinformatics
 
   :::details
-  TODO
+  I worked on developing an automated mass-cytometry data pre-gating (cleaning) pipeline with a fellow student. We used machine learning and computer vision (based on U-Net) to train a model that identifies debris and technical artifacts in the collected raw data. Our model achieved over 93% accuracy on new data.
+
+  This workflow introduced an approximately 70% increase in data cleaning efficiency compared to manual processes.
   :::
 
 - **Department of Mathematics**

@@ -47,7 +47,7 @@ export default defineConfig({
         sidebar: [
             {
                 text: "Profile",
-                collapsed: true,
+                collapsed: false,
                 items: [
                     { text: 'About Me', link: '/profile/about' },
                     { text: 'Related Courses', link: '/profile/related-courses' },
@@ -55,7 +55,7 @@ export default defineConfig({
             },
             {
                 text: 'Projects',
-                collapsed: true,
+                collapsed: false,
                 items: [
                     { text: 'Review System', link: '/projects/go-review-system' },
                     { text: 'URL Shortener', link: '/projects/go-url-shortener' },

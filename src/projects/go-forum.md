@@ -51,11 +51,11 @@ Repository: responsible for interacting with the underlying databases.
 
 - Distributed ID generation: [snowflake](https://en.wikipedia.org/wiki/Snowflake_ID) is a popular distributed ID generation algorithm. It ensures global uniqueness and monotonicity.
 
-- Authentication: JWT (JWT generation: [jwt-go](github.com/dgrijalva/jwt-go)).
+- Authentication: JWT (JWT generation: [jwt-go](https://github.com/dgrijalva/jwt-go)).
 
 - Logging: [Zap](https://github.com/uber-go/zap).
 
-- Config management: [Viper](github.com/spf13/viper).
+- Config management: [Viper](https://github.com/spf13/viper).
 
 - API testing: [Bruno](https://github.com/usebruno/bruno).
 

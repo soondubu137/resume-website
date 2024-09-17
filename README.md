@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f5aaa59b-5afe-4de9-93b7-ad52e5324bd1/deploy-status)](https://app.netlify.com/sites/yinfenglu/deploys)
+
 > Résumé website powered by [VitePress](https://github.com/vuejs/vitepress), with a little bit of modification and customization.
 
 ## Get Started with VitePress

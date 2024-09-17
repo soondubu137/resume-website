@@ -32,10 +32,14 @@ features:
       dark:  /icons/github-dark.png
       light: /icons/github.png
     title: GitHub
-    details: Where I keep (some of) my work and contribute to others'.<br/><div class="feature-link"><a href="https://github.com/soondubu137">Visit &rarr;</a></div>
+    details: Where I keep (some of) my work and contribute to others'.
+    link: https://github.com/soondubu137
+    linkText: Visit
   - icon:
       src: /icons/linkedin.png
     title: LinkedIn
-    details: Where I look for career opportunities.<br/><div class="feature-link"><a href="https://www.linkedin.com/in/yinfeng-lu/">Visit &rarr;</a></div>
+    details: Where I look for career opportunities.
+    link: https://www.linkedin.com/in/yinfeng-lu/
+    linkText: Visit
 ---
 

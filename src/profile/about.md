@@ -98,7 +98,7 @@ I am currently studying computer science at the University of Chicago. I will gr
 
   **Thesis Research**
 
-  Thesis: [The Mod-2 Steenrod Algebra and its Applications in Computing Homotopy Groups of Spheres](/files/Thesis.pdf)
+  Thesis: <a href="/files/Thesis.pdf" target="_blank" rel="noreferrer">The Mod-2 Steenrod Algebra and its Applications in Computing Homotopy Groups of Spheres</a>
 
 - **Experimental CMB Cosmology Group**
 

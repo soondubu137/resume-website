@@ -20,7 +20,7 @@ I am currently studying computer science at the University of Chicago. I will gr
 
 - **University of Chicago**
 
-  September 2023 - December 2024
+  Sept. 2023 - Dec. 2024
 
   M.S. Computer Science (Software Engineering)
 
@@ -28,13 +28,13 @@ I am currently studying computer science at the University of Chicago. I will gr
 
 - **University of Pennsylvania**
 
-  August 2021 - May 2023
+  Aug. 2021 - May 2023
 
   M.A. Mathematics (Algebraic Topology)
 
 - **University of California, Berkeley**
 
-  January 2018 - May 2021
+  Jan. 2018 - May 2021
 
   B.A. Mathematics
 
@@ -50,7 +50,7 @@ I am currently studying computer science at the University of Chicago. I will gr
 
   *Chicago, IL*
 
-  June 2024 - August 2024
+  June - Aug. 2024
 
   **SWE Intern**: core workflow optimization, backend optimization, AWS integration
 
@@ -69,7 +69,7 @@ I am currently studying computer science at the University of Chicago. I will gr
 
      In addition to integrating my OCR service into the backend, I parallelized the rest of the file processing workflow as well. This involves designing an in-memory data structure to coordinate the asynchronous function calls.
 
-  This overhaul increased the overall file processing speed by approximately 56%.
+  **This overhaul increased the overall file processing speed by approximately 56%.**
 
   Besides implementing the major overhaul, I also worked on introducing server-side events (SSE) to push real-time file processing updates to the clients, which greatly reduces server and network bandwidth usage compared to what they had before.
   :::
@@ -78,7 +78,7 @@ I am currently studying computer science at the University of Chicago. I will gr
 
   *Perelman School of Medicine, University of Pennsylvania*
 
-  August 2022 - May 2023
+  Aug. 2022 - May 2023
 
   **Research Assistant**: automated data cleaning pipeline development
 
@@ -94,7 +94,7 @@ I am currently studying computer science at the University of Chicago. I will gr
 
   *University of Pennsylvania*
 
-  January 2022 - May 2023
+  Jan. 2022 - May 2023
 
   **Thesis Research**
 
@@ -104,7 +104,7 @@ I am currently studying computer science at the University of Chicago. I will gr
 
   *Departments of Physics & Astronomy, UC Berkeley*
 
-  January 2019 - July 2019
+  Jan. - July 2019
 
   **Research Assistant**
 

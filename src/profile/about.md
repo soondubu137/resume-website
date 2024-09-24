@@ -5,7 +5,7 @@
 Links: <a href="/files/resume.pdf" target="_blank" rel="noreferrer">Résumé</a> | [LinkedIn](https://www.linkedin.com/in/yinfeng-lu/) | [GitHub](https://github.com/soondubu137)
 
 ::: details Background
-I used to study mathematics and physics, and I was quite good at them. While I was further pursuing mathematics (algebraic topology), however, I realized that math is for the *truly* brilliant people, of which I am sadly not one. Eventually, I made the decision to switch career.
+I used to study mathematics and physics, and I was quite good at them. While I was further pursuing mathematics (algebraic topology), however, I realized that math is for the _truly_ brilliant people, of which I am sadly not one. Eventually, I made the decision to switch career.
 
 Graduated from UC Berkeley, I knew how popular the CS61 trilogy is. I gave CS61A a try (available online), and I finished the whole course within two weeks. Taking CS61A was a completely different experience from all the math classes I had been taking. Working with not-so-abstract concepts is actually a lot of fun (I had always enjoyed the abstractness of math).
 
@@ -20,7 +20,7 @@ I am currently studying computer science at the University of Chicago. I will gr
 
 - **University of Chicago**
 
-  Sept. 2023 - Dec. 2024
+  September 2023 - December 2024
 
   M.S. Computer Science (Software Engineering)
 
@@ -28,13 +28,13 @@ I am currently studying computer science at the University of Chicago. I will gr
 
 - **University of Pennsylvania**
 
-  Aug. 2021 - May 2023
+  August 2021 - May 2023
 
   M.A. Mathematics (Algebraic Topology)
 
 - **University of California, Berkeley**
 
-  Jan. 2018 - May 2021
+  January 2018 - May 2021
 
   B.A. Mathematics
 
@@ -48,9 +48,9 @@ I am currently studying computer science at the University of Chicago. I will gr
 
 - **Legman.io**
 
-  *Chicago, IL*
+  _Chicago, IL_
 
-  June - Aug. 2024
+  June - August 2024
 
   **SWE Intern**: core workflow optimization, backend optimization, AWS integration
 
@@ -62,7 +62,7 @@ I am currently studying computer science at the University of Chicago. I will gr
   Originally, their entire file processing workflow resided on the backend server and it worked sequentially. I made two major improvements to the workflow:
 
   1. **I separated out the OCR workflow, redesigned it to be distributed, and deployed it as a stand-alone service on AWS.**
-  
+
      This part was quite challenging. Coming up with the distributed design wasn't very difficult, but it took me several weeks to find an efficient way to deploy it on AWS. At first, I was trying out ECS, but I later realized it was practically impossible to make autoscaling play well with the fast process of OCR. Eventually, I came up with an entirely serverless design, utilizing Lambda, SQS, EventBridge, and DynamoDB. This design performs very well: compared to the original sequential workflow, it boosted OCR processing speed by 93%! Even compared to a multi-threaded optimization that got deployed before my system was integrated, it runs 63% faster.
 
   2. **I implemented a thread-safe parallelization scheme for the remaining processing workflow.**
@@ -76,9 +76,9 @@ I am currently studying computer science at the University of Chicago. I will gr
 
 - **Shen Lab**
 
-  *Perelman School of Medicine, University of Pennsylvania*
+  _Perelman School of Medicine, University of Pennsylvania_
 
-  Aug. 2022 - May 2023
+  August 2022 - May 2023
 
   **Research Assistant**: automated data cleaning pipeline development
 
@@ -92,9 +92,9 @@ I am currently studying computer science at the University of Chicago. I will gr
 
 - **Department of Mathematics**
 
-  *University of Pennsylvania*
+  _University of Pennsylvania_
 
-  Jan. 2022 - May 2023
+  January 2022 - May 2023
 
   **Thesis Research**
 
@@ -102,9 +102,9 @@ I am currently studying computer science at the University of Chicago. I will gr
 
 - **Experimental CMB Cosmology Group**
 
-  *Departments of Physics & Astronomy, UC Berkeley*
+  _Departments of Physics & Astronomy, UC Berkeley_
 
-  Jan. - July 2019
+  January - July 2019
 
   **Research Assistant**
 

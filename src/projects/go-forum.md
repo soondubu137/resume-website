@@ -11,11 +11,11 @@
 
 **GitHub**: https://github.com/soondubu137/go-forum
 
-This *educational* project demonstrates (monolith) web development with [Go](https://go.dev). This project implements the backend of an online forum.
+This _educational_ project demonstrates (monolith) web development with [Go](https://go.dev). This project implements the backend of an online forum.
 
 > [!NOTE]
 >
-> A frontend is *not* implemented with this project.
+> A frontend is _not_ implemented with this project.
 
 ## Introduction
 
@@ -65,9 +65,9 @@ Repository: responsible for interacting with the underlying databases.
 
   - JWT
 
-    User authentication is done with single-token JWT (i.e. only authentication token, no refresh token). JWT authentication is implemented as a *middleware* in Gin, intercepting all auth-required requests. If JWT authentication is successful, the user ID will be injected into the Gin context. See `middleware/auth.go` for details.
+    User authentication is done with single-token JWT (i.e. only authentication token, no refresh token). JWT authentication is implemented as a _middleware_ in Gin, intercepting all auth-required requests. If JWT authentication is successful, the user ID will be injected into the Gin context. See `middleware/auth.go` for details.
 
-  - Salted password hasing
+  - Salted password hashing
 
     Password hashing alone is not sufficient due to its susceptibility to [dictionary attack](https://en.wikipedia.org/wiki/Dictionary_attack). Salted password hashing increases the brute-force attack's time complexity from $O(D+n)$ to $O(D\cdot n)$, where $D$ is the dictionary size and $n$ is the number of the compromised password hashes.
 
@@ -93,7 +93,6 @@ Repository: responsible for interacting with the underlying databases.
   - Centralized response management.
   - Centralized error management.
 
-
 ## Learning Outcomes
 
 Through this project, I
@@ -108,11 +107,11 @@ Through this project, I
 
 Here I list some potential extensions to this project.
 
-| Extension     | Explanation                                                  |
-| ------------- | ------------------------------------------------------------ |
-| Refresh Token | Add a refresh token to JWT authentication.                   |
+| Extension     | Explanation                                                                                                                                         |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Refresh Token | Add a refresh token to JWT authentication.                                                                                                          |
 | Post Deletion | Allows users to delete a post. However, this is just more CRUD. If you are already familiar with basic CRUD with sqlx, this task is unenlightening. |
-| Comment       | Allows users to post comments on others' posts. This may be slightly more interesting than post deletion, but essentially it is still CRUD. |
+| Comment       | Allows users to post comments on others' posts. This may be slightly more interesting than post deletion, but essentially it is still CRUD.         |
 
 ## References
 

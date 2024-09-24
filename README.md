@@ -38,41 +38,45 @@ npm add medium-zoom
 
 ```typescript
 // import ...
-import { onMounted, watch, nextTick } from 'vue'
-import { useRoute } from 'vitepress'
-import mediumZoom from 'medium-zoom'
+import { onMounted, watch, nextTick } from "vue";
+import { useRoute } from "vitepress";
+import mediumZoom from "medium-zoom";
 
 export default {
-    // ...
-    setup() {
-        const route = useRoute()
-        const initZoom = () => {
-            // change margin and background to your liking
-            mediumZoom('.main img', { margin: 50, background: 'rgba(0, 0, 0, 0.5)' })
-        }
-        onMounted(() => {
-            initZoom()
-        })
-        watch(
-            () => route.path,
-            () => nextTick(() => initZoom())
-        )
-    }
-} satisfies Theme
+  // ...
+  setup() {
+    const route = useRoute();
+    const initZoom = () => {
+      // change margin and background to your liking
+      mediumZoom(".main img", { margin: 50, background: "rgba(0, 0, 0, 0.5)" });
+    };
+    onMounted(() => {
+      initZoom();
+    });
+    watch(
+      () => route.path,
+      () => nextTick(() => initZoom()),
+    );
+  },
+} satisfies Theme;
 ```
 
 3. Create a custom CSS file, e.g. `.vitepress/theme/custom.css`, and add in the following rules:
 
 ```css
 .medium-zoom-image {
-    z-index: 9999 !important;
+  z-index: 9999 !important;
 }
 
 .medium-zoom-overlay {
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    z-index: 9998 !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 9998 !important;
 }
 ```
 
 You can remove `backdrop-filter` if you don't like it.
+
+> [!NOTE]
+> For some reason, the images are blurred on Safari.
+

@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-#   name: "Yinfeng Lu"
+  #   name: "Yinfeng Lu"
   text: "Yinfeng Lu"
   tagline: Software Engineer
   actions:
@@ -15,9 +15,6 @@ hero:
       link: /files/resume.pdf
       target: _blank
       rel: noreferrer
-    - theme: alt
-      text: View on GitHub
-      link: https://github.com/soondubu137/resume-website
 
 features:
   - icon:
@@ -29,7 +26,7 @@ features:
     title: Graduation
     details: I will finish my last quarter in December 2024. I can start employment in early 2025.
   - icon:
-      dark:  /icons/github-dark.png
+      dark: /icons/github-dark.png
       light: /icons/github.png
     title: GitHub
     details: Where I keep (some of) my work and contribute to others'.
@@ -42,4 +39,3 @@ features:
     link: https://www.linkedin.com/in/yinfeng-lu/
     linkText: Visit
 ---
-
